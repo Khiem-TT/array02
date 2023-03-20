@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex06</title>
+</head>
+<body>
+<script>
+    let str = prompt('Nhập mảng:');
+    let arr = str.split(',');
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === '-') {
+            arr.splice(i, 1, '_');
+        }
+    }
+    console.log(arr);
+</script>
+</body>
+</html>

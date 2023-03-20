@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex05</title>
+</head>
+<body>
+<script>
+    let stra = prompt('Nhập chuỗi a:');
+    let strb = prompt('Nhập chuỗi b:');
+    let flag = true;
+    for (let i = 0; i < stra.length; i++) {
+        if (stra[i] !== strb[i]) {
+            flag = false;
+            break;
+        }
+    }
+    if (flag) {
+        alert('Hai chuỗi giống nhau');
+    } else {
+        alert('Hai chuỗi không giống nhau');
+    }
+</script>
+</body>
+</html>
